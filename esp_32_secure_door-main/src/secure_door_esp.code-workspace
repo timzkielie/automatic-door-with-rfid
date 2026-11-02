@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "esp_32_secure_door",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "secure_door_esp"
+	}
+}
