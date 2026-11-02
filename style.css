@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+main { max-width: 900px; margin: 0 auto; padding: 24px 16px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+h1 { font-size: 1.4rem; margin: 0; }
+#status { font-size: .8rem; color: #94a3b8; }
+table { width: 100%; border-collapse: collapse; background: #1e293b; border-radius: 8px; overflow: hidden; }
+th, td { padding: 10px 12px; text-align: left; font-size: .9rem; }
+th { background: #334155; font-weight: 600; }
+tr + tr td { border-top: 1px solid #334155; }
+td.uid { font-family: ui-monospace, monospace; }
+.badge { padding: 2px 8px; border-radius: 999px; font-size: .75rem; font-weight: 600; }
+.granted { background: #14532d; color: #86efac; }
+.denied  { background: #7f1d1d; color: #fca5a5; }
+@media (max-width: 600px) { th:nth-child(3), td:nth-child(3) { display: none; } }
